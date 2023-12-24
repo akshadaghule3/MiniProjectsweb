@@ -1,0 +1,153 @@
+*{
+  font-family: 'Inter';
+  box-sizing: border-box;
+
+}
+
+
+.first--column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2
+  }
+  .first-part {
+    margin-left: 9%;
+    margin-top: 45px;
+    /* background-color: blue; */
+    /* height: 100px; */
+  }
+
+  .some-page-wrapper {
+    margin: 15px;
+    background-color: #FFCD9E;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1
+  }
+  .middle-part{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+    
+  }
+
+  .middle-text-part{
+    font-size: 27px;
+    color: #282828;
+    font-weight: 700;
+    }
+ .secont-text-part{
+  margin-top: 20px;
+  font-size: 16px;
+ }
+ .text-part-third{
+  font-weight: 700;
+
+  color:#282828 ;
+ }
+
+
+
+
+ .input-column {
+  /* flex: 1;
+  padding: 10px; */
+  margin-top: 10px;
+}
+
+.button-column {
+  padding: 10px;
+}
+
+input {
+
+  width: 100%;
+  /* padding: 8px; */
+  box-sizing: border-box;
+  border: 1px solid;
+  color: black;
+  border-radius: 5px;
+  height: 47px;
+}
+
+button {
+  width: 150px;
+  height: 47px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+.forth-text{
+  color: white;
+  font-size: 10px;
+}
+
+
+
+
+
+
+  @media (max-width: 400px) {
+    .flex-grid,
+    .flex-grid-thirds {
+      display: block;
+      .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+    }
+  }
+  /* img{
+    width: 80%;
+  } */
+
+  /* -------------------footer content-------------- */
+  .footer {
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    padding: 10px;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }
+  
+ .footer-content-column  {
+  text-align: justify;
+  margin-left: 33%;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.footer-content-column span {
+  margin-bottom: 10px; /* Adjust the margin as needed for space between lines */
+}
+  
+.footer-second-content-column {
+  font-size: 14px;
+}
+ 
+  body {
+    padding: 20px;
+  }
+  .flex-grid { 
+    margin: 0 0 20px 0;
+  }
+  .col {
+    background: salmon;
+    padding: 20px;
+  }
